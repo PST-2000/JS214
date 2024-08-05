@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0%;
+    background-color: white;
+}
+#folders {
+    margin-bottom: 20px;
+}
+.folder{
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#file-controls{
+    margin-bottom: 20px;
+}
+#file-controls input{
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#file-controls button{
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#file-controls button:hover{
+    background-color: #ccc;
+}
+#file-list ul{
+    list-style-type: none;
+    padding: 0;
+}
+#file-list li{
+    padding: 8px;
+    border: 1px solid white;
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 4px;
+}
